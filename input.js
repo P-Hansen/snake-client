@@ -19,6 +19,9 @@ const handleUserInput = (key) => {
     case "\033[C"://right
       connection.write("Move: right");
       break;
+    case " "://talk shit
+      connection.write("Say: Hisssssss");
+      break;
   };
 };
 
