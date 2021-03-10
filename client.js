@@ -9,8 +9,7 @@ const connect = function () {
     port: 50542
   });
   console.log("Successfully connected to game server!");
-  conn.write("Name: FIL");
-
+  
   // interpret incoming data as text
   conn.setEncoding('utf8');
 
